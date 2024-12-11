@@ -6,45 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    
-        <h1>Registration Form</h1>
-        <div style="width: 400px; border: 1px dotted black;">
+    <h1>Registration Form</h1>
+    <div style="width: 400px; margin: 50px auto; ">
+    <div class="container">
+        
         <form>
-           
-                <h3>Personal details</h3>
-                <br> <br>
-                <hr>
+            <fieldset>
+                <legend>Personal details</legend>
                 <label for="first-name">First name</label>
-                <input type="text" id="first-name" name="first-name">
-                <br> <br>
+                <input type="text" id="first-name" name="first-name"> <br><br>
                 
                 <label for="last-name">Last name</label>
-                <input type="text" id="last-name" name="last-name"> <br> <br>
+                <input type="text" id="last-name" name="last-name"><br><br>
                 
                 <label for="email">Email address</label>
-                <input type="email" id="email" name="email"> <br> <br>
+                <input type="email" id="email" name="email"><br><br>
                 
-                <label>Gender</label> 
+                <label>Gender</label>
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label> 
+                <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label> 
-           
+                <label for="female">Female</label><br><br>
+            </fieldset>
             
-           <div>
-                
-                <label>City</label>
+            <fieldset>
+                <legend>City</legend>
+                <label for="city">City</label>
                 <select id="city" name="city">
                     <option value="Amman">Amman</option>
                     <option value="Irbid">Irbid</option>
                     <option value="Zarqa">Zarqa</option>
-                </select>
-                <br> <br>
-                <button type="submit">sign up</button>
-                
-            </div>
-            
+                </select><br><br>
+            </fieldset>
+            <br><br>
+            <button type="submit">Subscribe</button>
         </form>
+    </div>
     </div>
 </body>
 </html>
